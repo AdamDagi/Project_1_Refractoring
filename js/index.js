@@ -4,7 +4,7 @@ const headerEl = document.querySelector(".sprint");
 
 searchButton.onclick = () => {
     const city = inputData.value;
-    // window.localStorage.setItem("city", city);
+    window.localStorage.setItem("city", city);
     window.location.replace("./content.html?city=" + city);
 };
 
